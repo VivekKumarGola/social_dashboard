@@ -1,0 +1,8 @@
+{% extends 'core/base.html' %}
+{% block content %}
+<h2>Dashboard</h2>
+<p>Social posts will appear here...</p>
+<a href="{% url 'social:begin' 'facebook' %}">Connect Facebook</a><br>
+<a href="{% url 'social:begin' 'twitter' %}">Connect Twitter</a>
+
+{% endblock %}
